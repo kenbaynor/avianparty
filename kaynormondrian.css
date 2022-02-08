@@ -1,0 +1,193 @@
+{
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.box01 {
+  position: relative;
+  border: 8px solid black;
+  padding: 20px;
+  width: 240px;
+  height: 240px;
+  background-color: gold;
+  transition: all 2s ease-in-out 0s;
+}
+
+.box01:hover {
+  position: relative;
+  border: 8px solid black;
+  padding: 20px;
+  width: 240px;
+  height: 240px;
+  background-color: gold;
+  cursor: default;
+  transform: rotate(135deg);
+  transition: all 2s ease-in-out 0s;
+}
+
+.box02 {
+  position: absolute;
+  border: 8px solid black;
+  padding: 20px;
+  width: 240px;
+  height: 96px;
+  top: 8px;
+  left: 304px;
+  border-left: 0px;
+  background-color: red;
+}
+
+.box02again {
+  position: absolute;
+  border: 8px solid black;
+  padding: 20px;
+  width: 96px;
+  height: 96px;
+  top: 8px;
+  left: 592px;
+  border-left: 0px;
+  background-color: white;
+}
+
+.box03 {
+  position: absolute;
+  border: 8px solid black;
+  padding: 20px;
+  width: 96px;
+  height: 96px;
+  top: 160px;
+  left: 304px;
+  border-top: 0px;
+  border-left: 0px;
+  background-color: white
+}
+
+.box03:hover {
+  position: absolute;
+  border: 8px solid black;
+  padding: 20px;
+  width: 96px;
+  height: 96px;
+  top: 160px;
+  left: 304px;
+  border-top: 0px;
+  border-left: 0px;
+  content: url("Mario.png");
+
+}
+
+.box04 {
+  position: absolute;
+  border: 8px solid black;
+  padding: 20px;
+  width: 348px;
+  height: 96px;
+  top: 152px;
+  left: 448px;
+  border-left: 0px;
+  background-color: #32509b;
+}
+
+.box05 {
+  position: absolute;
+  border: 8px solid black;
+  padding: 20px;
+  width: 96px;
+  height: 96px;
+  top: 152px;
+  left: 844px;
+  border-left: 0px;
+  transition: all 2s ease-in-out 0s;
+  background-color: gold;
+}
+
+.box05:hover {
+  position: absolute;
+  border: 8px solid black;
+  padding: 20px;
+  width: 96px;
+  height: 96px;
+  top: 152px;
+  left: 844px;
+  border-left: 0px;
+  content: url("Mario.png");
+  cursor: default;
+  transform: rotate(360deg);
+  transition: all 2s ease-in-out 0s;
+  background-color: gold;
+}
+
+.box06 {
+  position: absolute;
+  border: 8px solid black;
+  padding: 20px;
+  width: 292px;
+  height: 96px;
+  top: 620px;
+  left: 548px;
+  border-top: 0px;
+  border-left: 0px;
+  background-color: white;
+}
+
+.box08 {
+  position: relative;
+  border: 8px solid black;
+  padding: 20px;
+  width: 60px;
+  height: 60px;
+  border-top: 0px;
+  background-color: white;
+}
+
+.box08test {
+  position: absolute;
+  border: 8px solid black;
+  padding: 20px;
+  width: 60px;
+  height: 60px;
+  border-top: 0px;
+  top: 304px;
+  left: 728px;
+  background-color: white;
+}
+
+.box08again {
+  position: absolute;
+  border: 8px solid black;
+  padding: 20px;
+  width: 384px;
+  height: 60px;
+  border-top: 0px;
+  border-left: 0px;
+  top: 304px;
+  left: 124px;
+  background-color: red;
+}
+
+.boxback {
+  position: absolute;
+  border: 8px solid #32509b;
+  padding: 20px;
+  width: 140px;
+  height: 90px;
+  top: 774px;
+  left: 1465px;
+  background-color: cornflowerblue;
+  content: url("Luigi.png");
+}
+
+.boxback:hover {
+  position: absolute;
+  border: 8px solid #32509b;
+  padding: 20px;
+  width: 140px;
+  height: 90px;
+  top: 774px;
+  left: 1448px;
+  background-color: cornflowerblue;
+  cursor: default;
+  transform: skewX(20deg);
+  transition: all 1s ease-in-out 0s;
+  content: url("LuigiRun.png");
+}

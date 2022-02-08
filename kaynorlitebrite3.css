@@ -1,0 +1,404 @@
+{
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.box01 {
+  position: sticky;
+  border: 0px solid black;
+  padding: 10px;
+  width: 1620px;
+  height: 28px;
+  background-color: black;
+  transition: all 2s ease-in-out 2s;
+}
+
+.box01:hover {
+  position: sticky;
+  padding: 10px;
+  width: 1620px;
+  height: 28px;
+  background-color: black;
+  background-image: linear-gradient(to left, black, gold 40%, black);
+  transition: all 2s ease-in-out 2s;
+}
+
+.box02 {
+  position: sticky;
+  border: 0px solid black;
+  padding: 10px;
+  width: 1620px;
+  height: 28px;
+  background-color: black;
+  transition: all 2s ease-in-out 2s;
+}
+
+.box02:hover {
+  position: sticky;
+  padding: 10px;
+  width: 1620px;
+  height: 28px;
+  background-color: black;
+  background-image: linear-gradient(to left, black, gold 50%, black);
+  transition: all 2s ease-in-out 2s;
+}
+
+.box03 {
+  position: sticky;
+  border: 0px solid black;
+  padding: 10px;
+  width: 1620px;
+  height: 28px;
+  background-color: black;
+  transition: all 2s ease-in-out 2s;
+}
+
+.box03:hover {
+  position: sticky;
+  padding: 10px;
+  width: 1620px;
+  height: 28px;
+  background-color: black;
+  background-image: linear-gradient(to left, black, gold 60%, black);
+  transition: all 2s ease-in-out 2s;
+}
+
+.box04 {
+  position: sticky;
+  border: 0px solid black;
+  padding: 10px;
+  width: 1620px;
+  height: 28px;
+  background-color: black;
+  transition: all 2s ease-in-out 2s;
+}
+
+.box04:hover {
+  position: sticky;
+  padding: 10px;
+  width: 1620px;
+  height: 28px;
+  background-color: black;
+  background-image: linear-gradient(to left, black, gold 70%, black);
+  transition: all 2s ease-in-out 2s;
+}
+
+.box05 {
+  position: sticky;
+  border: 0px solid black;
+  padding: 10px;
+  width: 1620px;
+  height: 28px;
+  background-color: black;
+  transition: all 2s ease-in-out 2s;
+}
+
+.box05:hover {
+  position: sticky;
+  padding: 10px;
+  width: 1620px;
+  height: 28px;
+  background-color: black;
+  background-image: linear-gradient(to left, black, gold 80%, black);
+  transition: all 2s ease-in-out 2s;
+}
+
+.box06 {
+  position: sticky;
+  border: 0px solid black;
+  padding: 10px;
+  width: 1620px;
+  height: 28px;
+  background-color: black;
+  transition: all 2s ease-in-out 2s;
+}
+
+.box06:hover {
+  position: sticky;
+  padding: 10px;
+  width: 1620px;
+  height: 28px;
+  background-color: black;
+  background-image: linear-gradient(to left, black, gold 90%, black);
+  transition: all 2s ease-in-out 2s;
+}
+
+.box07 {
+  position: sticky;
+  border: 0px solid black;
+  padding: 10px;
+  width: 1620px;
+  height: 28px;
+  background-color: black;
+  transition: all 2s ease-in-out 2s;
+}
+
+.box07:hover {
+  position: sticky;
+  padding: 10px;
+  width: 1620px;
+  height: 28px;
+  background-color: black;
+  background-image: linear-gradient(to left, black, gold 90%, black);
+  transition: all 2s ease-in-out 2s;
+}
+
+.box08 {
+  position: sticky;
+  border: 0px solid black;
+  padding: 10px;
+  width: 1620px;
+  height: 28px;
+  background-color: black;
+  transition: all 2s ease-in-out 2s;
+}
+
+.box08:hover {
+  position: sticky;
+  padding: 10px;
+  width: 1620px;
+  height: 28px;
+  background-color: black;
+  background-image: linear-gradient(to left, black, gold 90%, black);
+  transition: all 2s ease-in-out 2s;
+}
+
+.box09 {
+  position: sticky;
+  border: 0px solid black;
+  padding: 10px;
+  width: 1620px;
+  height: 28px;
+  background-color: black;
+  transition: all 2s ease-in-out 2s;
+}
+
+.box09:hover {
+  position: sticky;
+  padding: 10px;
+  width: 1620px;
+  height: 28px;
+  background-color: black;
+  background-image: linear-gradient(to left, black, gold 80%, black);
+  transition: all 2s ease-in-out 2s;
+}
+
+.box10 {
+  position: sticky;
+  border: 0px solid black;
+  padding: 10px;
+  width: 1620px;
+  height: 28px;
+  background-color: black;
+  transition: all 2s ease-in-out 2s;
+}
+
+.box10:hover {
+  position: sticky;
+  padding: 10px;
+  width: 1620px;
+  height: 28px;
+  background-color: black;
+  background-image: linear-gradient(to left, black, gold 70%, black);
+  transition: all 2s ease-in-out 2s;
+}
+
+.box11 {
+  position: sticky;
+  border: 0px solid black;
+  padding: 10px;
+  width: 1620px;
+  height: 28px;
+  background-color: black;
+  transition: all 2s ease-in-out 2s;
+}
+
+.box11:hover {
+  position: sticky;
+  padding: 10px;
+  width: 1620px;
+  height: 28px;
+  background-color: black;
+  background-image: linear-gradient(to left, black, gold 60%, black);
+  transition: all 2s ease-in-out 2s;
+}
+
+.box12 {
+  position: sticky;
+  border: 0px solid black;
+  padding: 10px;
+  width: 1620px;
+  height: 28px;
+  background-color: black;
+  transition: all 2s ease-in-out 2s;
+}
+
+.box12:hover {
+  position: sticky;
+  padding: 10px;
+  width: 1620px;
+  height: 28px;
+  background-color: black;
+  background-image: linear-gradient(to left, black, gold 50%, black);
+  transition: all 2s ease-in-out 2s;
+}
+
+.box13 {
+  position: sticky;
+  border: 0px solid black;
+  padding: 10px;
+  width: 1620px;
+  height: 28px;
+  background-color: black;
+  transition: all 2s ease-in-out 2s;
+}
+
+.box13:hover {
+  position: sticky;
+  padding: 10px;
+  width: 1620px;
+  height: 28px;
+  background-color: black;
+  background-image: linear-gradient(to left, black, gold 40%, black);
+  transition: all 2s ease-in-out 2s;
+}
+
+.box14 {
+  position: sticky;
+  border: 0px solid black;
+  padding: 10px;
+  width: 1620px;
+  height: 28px;
+  background-color: black;
+  transition: all 2s ease-in-out 2s;
+}
+
+.box14:hover {
+  position: sticky;
+  padding: 10px;
+  width: 1620px;
+  height: 28px;
+  background-color: black;
+  background-image: linear-gradient(to left, black, gold 30%, black);
+  transition: all 2s ease-in-out 2s;
+}
+
+.box15 {
+  position: sticky;
+  border: 0px solid black;
+  padding: 10px;
+  width: 1620px;
+  height: 28px;
+  background-color: black;
+  transition: all 2s ease-in-out 2s;
+}
+
+.box15:hover {
+  position: sticky;
+  padding: 10px;
+  width: 1620px;
+  height: 28px;
+  background-color: black;
+  background-image: linear-gradient(to left, black, gold 20%, black);
+  transition: all 2s ease-in-out 2s;
+}
+
+.box16 {
+  position: sticky;
+  border: 0px solid black;
+  padding: 10px;
+  width: 1620px;
+  height: 28px;
+  background-color: black;
+  transition: all 2s ease-in-out 2s;
+}
+
+.box16:hover {
+  position: sticky;
+  padding: 10px;
+  width: 1620px;
+  height: 28px;
+  background-color: black;
+  background-image: linear-gradient(to left, black, gold 10%, black);
+  transition: all 2s ease-in-out 2s;
+}
+
+.box17 {
+  position: sticky;
+  border: 0px solid black;
+  padding: 10px;
+  width: 1620px;
+  height: 28px;
+  background-color: black;
+  transition: all 2s ease-in-out 2s;
+}
+
+.box17:hover {
+  position: sticky;
+  padding: 10px;
+  width: 1620px;
+  height: 28px;
+  background-color: black;
+  background-image: linear-gradient(to left, black, gold 10%, black);
+  transition: all 2s ease-in-out 2s;
+}
+
+.box18 {
+  position: sticky;
+  border: 0px solid black;
+  padding: 10px;
+  width: 1620px;
+  height: 28px;
+  background-color: black;
+  transition: all 2s ease-in-out 2s;
+}
+
+.box18:hover {
+  position: sticky;
+  padding: 10px;
+  width: 1620px;
+  height: 28px;
+  background-color: black;
+  background-image: linear-gradient(to left, black, gold 10%, black);
+  transition: all 2s ease-in-out 2s;
+}
+
+.box19 {
+  position: sticky;
+  border: 0px solid black;
+  padding: 10px;
+  width: 1620px;
+  height: 28px;
+  background-color: black;
+  transition: all 2s ease-in-out 2s;
+}
+
+.box19:hover {
+  position: sticky;
+  padding: 10px;
+  width: 1620px;
+  height: 28px;
+  background-color: black;
+  background-image: linear-gradient(to left, black, gold 20%, black);
+  transition: all 2s ease-in-out 2s;
+}
+
+.box20 {
+  position: sticky;
+  border: 0px solid black;
+  padding: 10px;
+  width: 1620px;
+  height: 28px;
+  background-color: black;
+  transition: all 2s ease-in-out 2s;
+}
+
+.box20:hover {
+  position: sticky;
+  padding: 10px;
+  width: 1620px;
+  height: 28px;
+  background-color: black;
+  background-image: linear-gradient(to left, black, gold 30%, black);
+  transition: all 2s ease-in-out 2s;
+}
