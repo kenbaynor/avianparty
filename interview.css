@@ -1,0 +1,1119 @@
+body {
+  margin: 0;
+  background-image: linear-gradient(to left, #630e43, black, black, black, black, black, black, black, black, black, black, black, black, black, black, black, black, black, black, black, black, black, black, black, black, black, black, black, black, black, black, #630e43);
+  overflow-x: hidden;
+}
+
+/* #canvas {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: right;
+  margin: 0px auto;
+  z-index: -5;
+} */
+
+.box {
+  position: absolute;
+  width: 6px;
+  height: 6px;
+  top: 0px;
+  right: 4px;
+  background-color: blue;
+  opacity: 0%;
+}
+
+.lineheight {
+  display: block;
+  margin-bottom: 1rem;
+}
+
+.lineheight2 {
+  display: block;
+  margin-bottom: 2rem;
+}
+
+.micstand {
+  position: absolute;
+  top: 200px;
+  left: 55px;
+  content: url("MicStand2.png");
+  z-index: -5;
+  animation-duration: 1.5s;
+  animation-iteration-count: 1;
+  animation-name: swingin;
+}
+
+@keyframes swingin {
+  0% {
+    transform: rotate(-19deg);
+    transform-origin: bottom right;
+    animation-timing-function: ease;
+  }
+
+  100% {
+    transform: rotate(0deg) translateY(0);
+    transform-origin: bottom right;
+    animation-timing-function: ease;
+  }
+}
+
+.pinkglow {
+  opacity: 70%;
+  position: absolute;
+  width: 500px;
+  height: 500px;
+  top: 195px;
+  left: -15px;
+  z-index: -6;
+  content: url("PinkGlow.png");
+  animation-duration: 1.8s;
+  animation-iteration-count: 1;
+  animation-name: pinkgrow;
+}
+
+@keyframes pinkgrow {
+  0% {
+    transform: scale(0);
+    animation-timing-function: ease;
+  }
+
+  50% {
+    transform: scale(0);
+    animation-timing-function: ease;
+  }
+
+  100% {
+    transform: scale(1);
+    animation-timing-function: ease;
+  }
+}
+
+.titlebubble {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  position: relative;
+  top: 0px;
+  left: 200px;
+  width: 1000px;
+  height: 380px;
+  margin: 50px auto;
+  padding: 20px;
+  font-weight: 900;
+  color: #fff;
+  font-family: Poppins;
+  font-weight: bold;
+  font-size: 45px;
+  background-image: linear-gradient(to bottom, MediumVioletRed, black, black, black, black, MediumVioletRed);
+  border-radius: 0%;
+  border: 14px solid MediumVioletRed;
+  animation-duration: 3s;
+  animation-iteration-count: 1;
+  animation-name: grow1;
+}
+
+.titletext {
+  font-weight: 900;
+  color: black;
+  font-family: Poppins;
+  font-weight: bold;
+  font-size: 55px;
+  text-shadow: -2px 0 white, 0 2px white, 2px 0 white, 0 -2px white;
+}
+
+.tsb1 {
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-bottom: 110px solid MediumVioletRed;
+  border-left: 110px solid transparent;
+  left: -122px;
+  top: 254px;
+}
+
+@keyframes grow1 {
+  0% {
+    transform: scale(0);
+    transform-origin: bottom left;
+    animation-timing-function: ease;
+  }
+
+  60% {
+    transform: scale(0);
+    transform-origin: bottom left;
+    animation-timing-function: ease;
+  }
+
+  85% {
+    transform: scale(1.09);
+    transform-origin: bottom left;
+    animation-timing-function: ease-in;
+  }
+
+  93% {
+    transform: scale(1);
+    transform-origin: bottom left;
+    animation-timing-function: ease;
+  }
+
+  97% {
+    transform: scale(1.02);
+    transform-origin: bottom left;
+    animation-timing-function: ease-in;
+  }
+
+  100% {
+    transform: scale(1);
+    transform-origin: bottom left;
+    animation-timing-function: ease;
+  }
+}
+
+@keyframes grow2 {
+  0% {
+    transform: scale(0);
+    transform-origin: top left;
+    animation-timing-function: ease;
+  }
+
+  70% {
+    transform: scale(0);
+    transform-origin: top left;
+    animation-timing-function: ease;
+  }
+
+  85% {
+    transform: scale(1.09);
+    transform-origin: top left;
+    animation-timing-function: ease-in;
+  }
+
+  93% {
+    transform: scale(1);
+    transform-origin: top left;
+    animation-timing-function: ease;
+  }
+
+  97% {
+    transform: scale(1.02);
+    transform-origin: top left;
+    animation-timing-function: ease-in;
+  }
+
+    100% {
+      transform: scale(1);
+      transform-origin: top left;
+      animation-timing-function: ease;
+    }
+  }
+
+  @keyframes grow3 {
+    0% {
+      transform: scale(0);
+      transform-origin: top right;
+      animation-timing-function: ease;
+    }
+
+    70% {
+      transform: scale(0);
+      transform-origin: top right;
+      animation-timing-function: ease;
+    }
+
+    85% {
+      transform: scale(1.09);
+      transform-origin: top right;
+      animation-timing-function: ease-in;
+    }
+
+    93% {
+      transform: scale(1);
+      transform-origin: top right;
+      animation-timing-function: ease;
+    }
+
+    97% {
+      transform: scale(1.02);
+      transform-origin: top right;
+      animation-timing-function: ease-in;
+    }
+
+    100% {
+      transform: scale(1);
+      transform-origin: top right;
+      animation-timing-function: ease;
+    }
+  }
+
+@keyframes pulsate {
+  0% {
+    transform: scale(1);
+  }
+
+  25% {
+    transform: scaleX(1.01) scaleY(0.99);
+  }
+
+  50% {
+    transform: scaleX(0.98) scaleY(1.02);
+  }
+
+  75% {
+    transform: scaleX(1.01) scaleY(0.99);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}
+
+.qb1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  position: relative;
+  top: 50px;
+  left: -50px;
+  width: 600px;
+  height: 200px;
+  margin: 50px auto;
+  padding: 20px;
+  font-weight: 900;
+  color: #fff;
+  font-family: Poppins;
+  font-style: italic;
+  font-weight: normal;
+  font-size: 45px;
+  background-image: linear-gradient(to bottom, black 40%, MediumVioletRed);
+  border-radius: 0%;
+  border: 7px solid MediumVioletRed;
+  transform: rotate(3deg);
+  animation-duration: 3.5s;
+  animation-iteration-count: 1;
+  animation-name: grow2;
+}
+
+.q1text {
+  font-weight: 900;
+  color: #fff;
+  font-family: Poppins;
+  font-weight: normal;
+  font-size: 45px;
+}
+
+.q1subtext {
+  font-weight: 900;
+  color: #fff;
+  font-family: Poppins;
+  font-weight: normal;
+  font-size: 25px;
+}
+
+/*.qaudio1 {
+  text-align: center;
+  font-weight: 900;
+  color: #fff;
+  font-family: Poppins;
+  font-weight: bold;
+  font-size: 45px;
+  position: absolute;
+  top: 120px;
+  left: 150px;
+} */
+
+.qsb1 {
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-top: 50px solid MediumVioletRed;
+  border-left: 50px solid transparent;
+  left: -56px;
+  top: 26px;
+}
+
+.qb2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  position: relative;
+  top: 108px;
+  left: 450px;
+  width: 600px;
+  height: 220px;
+  margin: 50px auto;
+  padding: 20px;
+  font-weight: 900;
+  color: #fff;
+  font-family: Poppins;
+  font-style: italic;
+  font-weight: normal;
+  font-size: 45px;
+  background-image: linear-gradient(to bottom, black 40%, MediumVioletRed);
+  border-radius: 0%;
+  border: 7px solid MediumVioletRed;
+  transform: rotate(-3deg);
+  animation-duration: 4s;
+  animation-iteration-count: 1;
+  animation-name: grow3;
+}
+
+.q2text {
+  font-weight: 900;
+  color: #fff;
+  font-family: Poppins;
+  font-weight: normal;
+  font-size: 45px;
+}
+
+.q2subtext {
+  text-align: center;
+  font-weight: 900;
+  color: #fff;
+  font-family: Poppins;
+  font-weight: normal;
+  font-size: 25px;
+}
+
+/* .qaudio2 {
+  text-align: center;
+  font-weight: 900;
+  color: #fff;
+  font-family: Poppins;
+  font-weight: bold;
+  font-size: 45px;
+  position: absolute;
+  top: 160px;
+  left: 150px;
+} */
+
+.qsb2 {
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-top: 50px solid MediumVioletRed;
+  border-right: 50px solid transparent;
+  right: -56px;
+  top: 26px;
+}
+
+.qb3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  position: relative;
+  top: 175px;
+  left: -135px;
+  width: 600px;
+  height: 220px;
+  margin: 50px auto;
+  padding: 20px;
+  font-weight: 900;
+  color: #fff;
+  font-family: Poppins;
+  font-style: italic;
+  font-weight: normal;
+  font-size: 45px;
+  background-image: linear-gradient(to bottom, black 40%, MediumVioletRed);
+  border-radius: 0%;
+  border: 7px solid MediumVioletRed;
+  transform: rotate(0deg);
+  animation-duration: 4s;
+  animation-iteration-count: 1;
+  animation-name: grow2;
+}
+
+.q3text {
+  font-weight: 900;
+  color: #fff;
+  font-family: Poppins;
+  font-weight: normal;
+  font-size: 45px;
+}
+
+.q3subtext {
+  text-align: center;
+  font-weight: 900;
+  color: #fff;
+  font-family: Poppins;
+  font-weight: normal;
+  font-size: 25px;
+}
+
+/* .qaudio3 {
+  text-align: center;
+  font-weight: 900;
+  color: #fff;
+  font-family: Poppins;
+  font-weight: bold;
+  font-size: 45px;
+  position: absolute;
+  top: 160px;
+  left: 150px;
+} */
+
+.qsb3 {
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-bottom: 50px solid MediumVioletRed;
+  border-left: 50px solid transparent;
+  left: -56px;
+  bottom: 26px;
+}
+
+.qb4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  position: relative;
+  top: 240px;
+  left: 350px;
+  width: 600px;
+  height: 220px;
+  margin: 50px auto;
+  padding: 20px;
+  font-weight: 900;
+  color: #fff;
+  font-family: Poppins;
+  font-style: italic;
+  font-weight: normal;
+  font-size: 45px;
+  background-image: linear-gradient(to bottom, black 40%, MediumVioletRed);
+  border-radius: 0%;
+  border: 7px solid MediumVioletRed;
+  transform: rotate(3deg);
+  animation-duration: 4s;
+  animation-iteration-count: 1;
+  animation-name: grow3;
+}
+
+.q4text {
+  font-weight: 900;
+  color: #fff;
+  font-family: Poppins;
+  font-weight: normal;
+  font-size: 45px;
+}
+
+.q4subtext {
+  text-align: center;
+  font-weight: 900;
+  color: #fff;
+  font-family: Poppins;
+  font-weight: normal;
+  font-size: 25px;
+}
+
+/* .qaudio4 {
+  text-align: center;
+  font-weight: 900;
+  color: #fff;
+  font-family: Poppins;
+  font-weight: bold;
+  font-size: 45px;
+  position: absolute;
+  top: 160px;
+  left: 150px;
+} */
+
+.qsb4 {
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-bottom: 50px solid MediumVioletRed;
+  border-left: 50px solid transparent;
+  right: 41px;
+  top: -56px;
+}
+
+.qb5 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  position: relative;
+  top: 300px;
+  left: -170px;
+  width: 600px;
+  height: 200px;
+  margin: 50px auto;
+  padding: 20px;
+  font-weight: 900;
+  color: #fff;
+  font-family: Poppins;
+  font-style: italic;
+  font-weight: normal;
+  font-size: 45px;
+  background-image: linear-gradient(to bottom, black 40%, MediumVioletRed);
+  border-radius: 0%;
+  border: 7px solid MediumVioletRed;
+  transform: rotate(0deg);
+  animation-duration: 4s;
+  animation-iteration-count: 1;
+  animation-name: grow2;
+}
+
+.q5text {
+  font-weight: 900;
+  color: #fff;
+  font-family: Poppins;
+  font-weight: normal;
+  font-size: 45px;
+}
+
+.q5subtext {
+  text-align: center;
+  font-weight: 900;
+  color: #fff;
+  font-family: Poppins;
+  font-weight: normal;
+  font-size: 25px;
+}
+
+/* .qaudio5 {
+  text-align: center;
+  font-weight: 900;
+  color: #fff;
+  font-family: Poppins;
+  font-weight: bold;
+  font-size: 45px;
+  position: absolute;
+  top: 160px;
+  left: 150px;
+} */
+
+.qsb5 {
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-top: 50px solid MediumVioletRed;
+  border-right: 50px solid transparent;
+  left: 41px;
+  bottom: -56px;
+}
+
+.qb6 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  position: relative;
+  top: 360px;
+  left: 130px;
+  width: 600px;
+  height: 220px;
+  margin: 50px auto;
+  padding: 20px;
+  font-weight: 900;
+  color: #fff;
+  font-family: Poppins;
+  font-style: italic;
+  font-weight: normal;
+  font-size: 45px;
+  background-image: linear-gradient(to bottom, black 40%, MediumVioletRed);
+  border-radius: 0%;
+  border: 7px solid MediumVioletRed;
+  transform: rotate(-3deg);
+  animation-duration: 4s;
+  animation-iteration-count: 1;
+  animation-name: grow3;
+}
+
+.q6text {
+  font-weight: 900;
+  color: #fff;
+  font-family: Poppins;
+  font-weight: normal;
+  font-size: 45px;
+}
+
+.q6subtext {
+  text-align: center;
+  font-weight: 900;
+  color: #fff;
+  font-family: Poppins;
+  font-weight: normal;
+  font-size: 25px;
+}
+
+/* .qaudio6 {
+  text-align: center;
+  font-weight: 900;
+  color: #fff;
+  font-family: Poppins;
+  font-weight: bold;
+  font-size: 45px;
+  position: absolute;
+  top: 160px;
+  left: 150px;
+} */
+
+.qsb6 {
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-top: 50px solid MediumVioletRed;
+  border-right: 50px solid transparent;
+  right: -56px;
+  bottom: 26px;
+}
+
+.qb7 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  position: relative;
+  top: 420px;
+  left: 400px;
+  width: 600px;
+  height: 220px;
+  margin: 50px auto;
+  padding: 20px;
+  font-weight: 900;
+  color: #fff;
+  font-family: Poppins;
+  font-style: italic;
+  font-weight: normal;
+  font-size: 45px;
+  background-image: linear-gradient(to bottom, black 40%, MediumVioletRed);
+  border-radius: 0%;
+  border: 7px solid MediumVioletRed;
+  transform: rotate(3deg);
+  animation-duration: 4s;
+  animation-iteration-count: 1;
+  animation-name: grow2;
+}
+
+.q7text {
+  font-weight: 900;
+  color: #fff;
+  font-family: Poppins;
+  font-weight: normal;
+  font-size: 45px;
+}
+
+.q7subtext {
+  text-align: center;
+  font-weight: 900;
+  color: #fff;
+  font-family: Poppins;
+  font-weight: normal;
+  font-size: 25px;
+}
+
+/* .qaudio7 {
+  text-align: center;
+  font-weight: 900;
+  color: #fff;
+  font-family: Poppins;
+  font-weight: bold;
+  font-size: 45px;
+  position: absolute;
+  top: 160px;
+  left: 150px;
+} */
+
+.qsb7 {
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-bottom: 50px solid MediumVioletRed;
+  border-left: 50px solid transparent;
+  left: -56px;
+  bottom: 26px;
+}
+
+.qb8 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  position: relative;
+  top: 490px;
+  left: -250px;
+  width: 600px;
+  height: 220px;
+  margin: 50px auto;
+  padding: 20px;
+  font-weight: 900;
+  color: #fff;
+  font-family: Poppins;
+  font-style: italic;
+  font-weight: normal;
+  font-size: 45px;
+  background-image: linear-gradient(to bottom, black 40%, MediumVioletRed);
+  border-radius: 0%;
+  border: 7px solid MediumVioletRed;
+  transform: rotate(-3deg);
+  animation-duration: 4s;
+  animation-iteration-count: 1;
+  animation-name: grow3;
+}
+
+.q8text {
+  font-weight: 900;
+  color: #fff;
+  font-family: Poppins;
+  font-weight: normal;
+  font-size: 45px;
+}
+
+.q8subtext {
+  text-align: center;
+  font-weight: 900;
+  color: #fff;
+  font-family: Poppins;
+  font-weight: normal;
+  font-size: 25px;
+}
+
+/* .qaudio8 {
+  text-align: center;
+  font-weight: 900;
+  color: #fff;
+  font-family: Poppins;
+  font-weight: bold;
+  font-size: 45px;
+  position: absolute;
+  top: 160px;
+  left: 150px;
+} */
+
+.qsb8 {
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-top: 50px solid MediumVioletRed;
+  border-right: 50px solid transparent;
+  right: -56px;
+  top: 26px;
+}
+
+.qb9 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  position: relative;
+  top: 540px;
+  left: 130px;
+  width: 600px;
+  height: 220px;
+  margin: 50px auto;
+  padding: 20px;
+  font-weight: 900;
+  color: #fff;
+  font-family: Poppins;
+  font-style: italic;
+  font-weight: normal;
+  font-size: 45px;
+  background-image: linear-gradient(to bottom, black 40%, MediumVioletRed);
+  border-radius: 0%;
+  border: 7px solid MediumVioletRed;
+  transform: rotate(0deg);
+  animation-duration: 4s;
+  animation-iteration-count: 1;
+  animation-name: grow3;
+}
+
+.q9text {
+  font-weight: 900;
+  color: #fff;
+  font-family: Poppins;
+  font-weight: normal;
+  font-size: 45px;
+}
+
+.q9subtext {
+  text-align: center;
+  font-weight: 900;
+  color: #fff;
+  font-family: Poppins;
+  font-weight: normal;
+  font-size: 25px;
+}
+
+/* .qaudio9 {
+  text-align: center;
+  font-weight: 900;
+  color: #fff;
+  font-family: Poppins;
+  font-weight: bold;
+  font-size: 45px;
+  position: absolute;
+  top: 160px;
+  left: 150px;
+} */
+
+.qsb9 {
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-top: 50px solid MediumVioletRed;
+  border-left: 50px solid transparent;
+  right: 41px;
+  bottom: -56px;
+}
+
+.qb10 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  position: relative;
+  top: 620px;
+  left: 330px;
+  width: 600px;
+  height: 220px;
+  margin: 50px auto;
+  padding: 20px;
+  font-weight: 900;
+  color: #fff;
+  font-family: Poppins;
+  font-style: italic;
+  font-weight: normal;
+  font-size: 45px;
+  background-image: linear-gradient(to bottom, black 40%, MediumVioletRed);
+  border-radius: 0%;
+  border: 7px solid MediumVioletRed;
+  transform: rotate(0deg);
+  animation-duration: 4s;
+  animation-iteration-count: 1;
+  animation-name: grow2;
+}
+
+.q10text {
+  font-weight: 900;
+  color: #fff;
+  font-family: Poppins;
+  font-weight: normal;
+  font-size: 45px;
+}
+
+.q10subtext {
+  text-align: center;
+  font-weight: 900;
+  color: #fff;
+  font-family: Poppins;
+  font-weight: normal;
+  font-size: 25px;
+}
+
+/* .qaudio10 {
+  text-align: center;
+  font-weight: 900;
+  color: #fff;
+  font-family: Poppins;
+  font-weight: bold;
+  font-size: 45px;
+  position: absolute;
+  top: 160px;
+  left: 150px;
+} */
+
+.qsb10 {
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-bottom: 50px solid MediumVioletRed;
+  border-right: 50px solid transparent;
+  left: 41px;
+  top: -56px;
+}
+
+.qbpic {
+  display: block;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  position: relative;
+  top: 650px;
+  left: 80px;
+  width: 904px;
+  height: 1280px;
+  margin: 50px auto;
+  padding: 20px;
+  font-weight: 900;
+  color: #fff;
+  font-family: Poppins;
+  font-style: italic;
+  font-weight: normal;
+  font-size: 45px;
+  background-image: linear-gradient(to bottom, black 20%, MediumVioletRed);
+  border-radius: 0%;
+  border: 7px solid MediumVioletRed;
+  transform: rotate(0deg);
+  animation-duration: 4s;
+  animation-iteration-count: 1;
+  animation-name: grow2;
+}
+
+.qpictext {
+  text-align: center;
+  font-weight: 900;
+  color: #fff;
+  font-family: Poppins;
+  font-weight: normal;
+  font-size: 35px;
+}
+
+.qbmicpic {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  position: relative;
+  left: -4px;
+  width: 912px;
+  height: 1216px;
+  content: url("MicheleRoomPic.jpg");
+  transform: rotate(0deg);
+}
+
+.qsbpic {
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-top: 50px solid MediumVioletRed;
+  border-left: 50px solid transparent;
+  left: -56px;
+  top: 26px;
+}
+
+.qb11 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  position: relative;
+  top: 600px;
+  left: 80px;
+  width: 600px;
+  height: 50px;
+  margin: 50px auto;
+  padding: 20px;
+  font-weight: 900;
+  color: #fff;
+  font-family: Poppins;
+  font-style: italic;
+  font-weight: normal;
+  font-size: 45px;
+  background-image: linear-gradient(to bottom, black 30%, MediumVioletRed);
+  border-radius: 2%;
+  border: 7px solid MediumVioletRed;
+  transform: rotate(0deg);
+  animation-duration: 4s;
+  animation-iteration-count: 1;
+  animation-name: grow3;
+}
+
+.q11text {
+  font-weight: 900;
+  color: #fff;
+  font-family: Poppins;
+  font-weight: normal;
+  font-size: 45px;
+}
+
+.q11subtext {
+  text-align: center;
+  font-weight: 900;
+  color: #fff;
+  font-family: Poppins;
+  font-weight: normal;
+  font-size: 25px;
+}
+
+/* .qaudio11 {
+  text-align: center;
+  font-weight: 900;
+  color: #fff;
+  font-family: Poppins;
+  font-weight: bold;
+  font-size: 45px;
+  position: absolute;
+  top: 160px;
+  left: 150px;
+} */
+
+.qsb11 {
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-bottom: 50px solid MediumVioletRed;
+  border-right: 50px solid transparent;
+  left: 41px;
+  top: -56px;
+}
+
+.qbblank {
+  display: block;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  position: relative;
+  bottom: 0px;
+  left: 270px;
+  width: 3px;
+  height: 3px;
+  margin: 50px auto;
+  padding: 20px;
+  font-weight: 900;
+  color: #fff;
+  font-family: Poppins;
+  font-style: italic;
+  font-weight: normal;
+  font-size: 45px;
+  background-color: black;
+  transform: rotate(0deg);
+}
+
+.jessie {
+  height: 50%;
+  width: 15%;
+  position: absolute;
+  right: 91px;
+  top: 2116px;
+  shadow: 2px 0 MediumVioletRed;
+  content: url("Jessie.png");
+  transform: rotate(-10deg);
+  opacity: 75%;
+}
+
+.return {
+  height: 5%;
+  position: absolute;
+  left: 35px;
+  top: 10px;
+  shadow: 2px 0 MediumVioletRed;
+  content: url("return.png");
+  transform: rotate(0deg);
+  opacity: 75%;
+  animation-duration: 4s;
+  animation-iteration-count: 1;
+  animation-name: returngrow;
+}
+
+@keyframes returngrow {
+  0% {
+    transform: scale(0);
+    animation-timing-function: ease;
+  }
+
+  55% {
+    transform: scale(0);
+    animation-timing-function: ease;
+  }
+
+  100% {
+    transform: scale(1);
+    animation-timing-function: ease;
+  }
+}
