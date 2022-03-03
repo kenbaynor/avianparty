@@ -47,13 +47,13 @@ body {
 @keyframes swingin {
   0% {
     transform: rotate(-19deg);
-    transform-origin: bottom right;
+    transform-origin: center;
     animation-timing-function: ease;
   }
 
   100% {
     transform: rotate(0deg) translateY(0);
-    transform-origin: bottom right;
+    transform-origin: center;
     animation-timing-function: ease;
   }
 }
