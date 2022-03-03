@@ -103,8 +103,9 @@ body {
   padding: 20px;
   font-weight: 900;
   color: #fff;
-  font-family: Poppins;
-  font-weight: bold;
+  font-family: poppins, sans-serif;
+  font-weight: 700;
+  font-style: normal;
   font-size: 45px;
   background-image: linear-gradient(to bottom, MediumVioletRed, black, black, black, black, MediumVioletRed);
   border-radius: 0%;
