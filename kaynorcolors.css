@@ -1,0 +1,392 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color:#000;
+  overflow: hidden;
+}
+
+body{ cursor: url('cursor.cur'),cell;}
+
+.water {
+  height: 13%;
+  position: absolute;
+  right: 35px;
+  top: 10px;
+  content: url("WaterGlass.png");
+  transform: rotate(0deg);
+}
+
+.title {
+  display: sticky;
+  top: 10px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  position: relative;
+  margin: 25px auto;
+  padding: 10px;
+  font-weight: 900;
+  color: #ffffff;
+  font-family: Avenir;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 45px;
+  animation-duration: 2s;
+  animation-iteration-count: 1;
+  animation-name: titleappeal;
+}
+
+.subtitle {
+  display: sticky;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  position: relative;
+  font-weight: 900;
+  color: #000000;
+  font-family: Avenir;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 35px;
+  animation-duration: 2s;
+  animation-iteration-count: 1;
+  animation-delay: 0.5s;
+  animation-name: titleappeal2;
+  z-index: -1;
+}
+
+.whitesplat {
+  position: absolute;
+  top: 326px;
+  left: 625px;
+  width: 440px;
+  height: 290px;
+  shadow: 2px 0 Red;
+  content: url("whitesplat.png");
+  transform: rotate(0deg);
+  animation-duration: 2s;
+  animation-iteration-count: 1;
+  animation-delay: 0.5s;
+  animation-name: titleappeal3;
+  z-index: -5;
+}
+
+.title2 {
+  display: sticky;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  position: relative;
+  margin: 25px auto;
+  padding: 10px;
+  font-weight: 900;
+  color: #ffffff;
+  font-family: Avenir;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 45px;
+}
+
+.blockbox {
+  position: absolute;
+  width: 700px;
+  height: 500px;
+  top: 310px;
+  left: 572px;
+  background-color: black;
+  animation-duration: 1s;
+  animation-iteration-count: 1;
+  animation-name: boxdisappear;
+}
+
+@keyframes titleappeal {
+  30% {
+    transform: scale(0);
+    transform-origin: center;
+    animation-timing-function: ease;
+  }
+
+  78% {
+    transform: scale(.99);
+    transform-origin: center;
+    animation-timing-function: ease;
+  }
+
+  80% {
+    transform: scale(.98);
+    transform-origin: center;
+    animation-timing-function: ease;
+  }
+
+  85% {
+    transform: rotate(1deg);
+    transform-origin: center;
+    animation-timing-function: ease;
+  }
+
+  90% {
+    transform: rotate(-1deg);
+    transform-origin: center;
+    animation-timing-function: ease;
+  }
+
+  95% {
+    transform: rotate(1deg);
+    transform-origin: center;
+    animation-timing-function: ease;
+  }
+
+  99% {
+    transform: rotate(0deg);
+    transform-origin: center;
+    animation-timing-function: ease;
+  }
+
+  100% {
+    transform: scale(1);
+    transform-origin: center;
+    animation-timing-function: ease;
+  }
+}
+
+@keyframes titleappeal2 {
+  0% {
+    transform: rotate(0deg);
+    transform-origin: center;
+    animation-timing-function: ease;
+  }
+
+  80% {
+    transform: rotate(0deg);
+    transform-origin: center;
+    animation-timing-function: ease;
+  }
+
+  85% {
+    transform: rotate(1deg);
+    transform-origin: center;
+    animation-timing-function: ease;
+  }
+
+  90% {
+    transform: rotate(-1deg);
+    transform-origin: center;
+    animation-timing-function: ease;
+  }
+
+  95% {
+    transform: rotate(1deg);
+    transform-origin: center;
+    animation-timing-function: ease;
+  }
+
+  100% {
+    transform: rotate(0deg);
+    transform-origin: center;
+    animation-timing-function: ease;
+  }
+}
+
+@keyframes boxdisappear {
+  0% {
+    transform: scale(5);
+    transform-origin: center;
+    animation-timing-function: ease;
+  }
+
+  100% {
+    transform: scale(0);
+    transform-origin: center;
+    animation-timing-function: ease;
+  }
+}
+
+.return {
+  height: 13%;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  shadow: 2px 0 Red;
+  content: url("return2.png");
+  transform: rotate(0deg);
+  hover: hi;
+}
+
+.redcolumn {
+  position: relative;
+  width: 277px;
+  height: 640px;
+  background-color: #B41101;
+  display: sticky;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-weight: 900;
+  color: #ffffff;
+  font-family: Avenir;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 35px;
+  float: left;
+  animation-duration: 8s;
+  animation-iteration-count: 1;
+  animation-name: noflash;
+}
+
+.orangecolumn {
+  position: relative;
+  width: 277px;
+  height: 640px;
+  background-color: orange;
+  display: sticky;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-weight: 900;
+  color: #ffffff;
+  font-family: Avenir;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 35px;
+  float: left;
+  animation-duration: 8s;
+  animation-iteration-count: 1;
+  animation-name: flash;
+}
+
+.yellowcolumn {
+  position: relative;
+  width: 277px;
+  height: 640px;
+  background-color: gold;
+  display: sticky;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-weight: 900;
+  color: #ffffff;
+  font-family: Avenir;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 35px;
+  float: left;
+  animation-duration: 8s;
+  animation-iteration-count: 1;
+  animation-name: flash;
+}
+
+.greencolumn {
+  position: relative;
+  width: 277px;
+  height: 640px;
+  background-color: green;
+  display: sticky;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-weight: 900;
+  color: #ffffff;
+  font-family: Avenir;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 35px;
+  float: left;
+  animation-duration: 8s;
+  animation-iteration-count: 1;
+  animation-name: flash;
+}
+
+.bluecolumn {
+  position: relative;
+  width: 277px;
+  height: 640px;
+  background-color: mediumblue;
+  display: sticky;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-weight: 900;
+  color: #ffffff;
+  font-family: Avenir;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 35px;
+  float: left;
+  animation-duration: 8s;
+  animation-iteration-count: 1;
+  animation-name: flash;
+}
+
+.purplecolumn {
+  position: relative;
+  width: 277px;
+  height: 640px;
+  background-color: purple;
+  display: sticky;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-weight: 900;
+  color: #ffffff;
+  font-family: Avenir;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 35px;
+  float: left;
+  animation-duration: 8s;
+  animation-iteration-count: 1;
+  animation-name: flash;
+}
+
+@keyframes flas {
+  0%, 100% {
+    opacity: 1;
+  }
+
+  15%, 90% {
+    opacity: 0;
+  }
+}
+
+.red1 {
+  transition-delay: 0.2s;
+  transition: 0.5s;
+  position: sticky;
+  width: 160px;
+  height: 160px;
+  background-color:red;
+  content: url("Taxonomy Color Sorting New/red/Brandon Spence, Image 01.jpeg");
+}
+
+.red2 {
+  transition-delay: 0.2s;
+  transition: 0.5s;
+  position: sticky;
+  width: 160px;
+  height: 160px;
+  background-color:red;
+  content: url("Taxonomy Color Sorting New/red/Tori Fuller, Image 02.JPG");
+}
+
+.red3 {
+  transition-delay: 0.2s;
+  transition: 0.5s;
+  position: sticky;
+  width: 160px;
+  height: 160px;
+  background-color:red;
+  content: url("Taxonomy Color Sorting New/red/Natalie Kinnamon, Image 01.jpg");
+}
+
+.red4 {
+  transition-delay: 0.2s;
+  transition: 0.5s;
+  position: sticky;
+  width: 160px;
+  height: 160px;
+  background-color:red;
+  content: url("Taxonomy Color Sorting New/red/Julia Kindle, Image 03.jpg");
+}

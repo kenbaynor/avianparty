@@ -1,0 +1,471 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color:#000;
+}
+
+body{ cursor: url('cursorpurple.cur'), help;}
+
+.water {
+  height: 13%;
+  position: absolute;
+  right: 35px;
+  top: 10px;
+  content: url("WaterGlass.png");
+  transform: rotate(0deg);
+}
+
+.title {
+  display: sticky;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  position: relative;
+  margin: 25px auto;
+  padding: 10px;
+  font-weight: 900;
+  color: #ffffff;
+  font-family: Avenir;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 45px;
+  animation-duration: 2s;
+  animation-iteration-count: 1;
+  animation-name: titleappeal;
+}
+
+.subtitle {
+  display: sticky;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  position: relative;
+  font-weight: 900;
+  color: #ffffff;
+  font-family: Avenir;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 35px;
+  animation-duration: 2s;
+  animation-iteration-count: 1;
+  animation-delay: 0.5s;
+  animation-name: titleappeal2;
+  z-index: -1;
+}
+
+.title2 {
+  display: sticky;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  position: relative;
+  margin: 25px auto;
+  padding: 10px;
+  font-weight: 900;
+  color: #ffffff;
+  font-family: Avenir;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 45px;
+}
+
+.blockbox {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  top: 410px;
+  left: 872px;
+  background-color: white;
+  animation-duration: 1s;
+  animation-iteration-count: 1;
+  animation-name: boxdisappear;
+}
+
+@keyframes titleappeal {
+  30% {
+    transform: scale(0);
+    transform-origin: center;
+    animation-timing-function: ease;
+  }
+
+  78% {
+    transform: scale(.99);
+    transform-origin: center;
+    animation-timing-function: ease;
+  }
+
+  80% {
+    transform: scale(.98);
+    transform-origin: center;
+    animation-timing-function: ease;
+  }
+
+  85% {
+    transform: rotate(1deg);
+    transform-origin: center;
+    animation-timing-function: ease;
+  }
+
+  90% {
+    transform: rotate(-1deg);
+    transform-origin: center;
+    animation-timing-function: ease;
+  }
+
+  95% {
+    transform: rotate(1deg);
+    transform-origin: center;
+    animation-timing-function: ease;
+  }
+
+  99% {
+    transform: rotate(0deg);
+    transform-origin: center;
+    animation-timing-function: ease;
+  }
+
+  100% {
+    transform: scale(1);
+    transform-origin: center;
+    animation-timing-function: ease;
+  }
+}
+
+@keyframes titleappeal2 {
+  0% {
+    transform: rotate(0deg);
+    transform-origin: center;
+    animation-timing-function: ease;
+  }
+
+  80% {
+    transform: rotate(0deg);
+    transform-origin: center;
+    animation-timing-function: ease;
+  }
+
+  85% {
+    transform: rotate(1deg);
+    transform-origin: center;
+    animation-timing-function: ease;
+  }
+
+  90% {
+    transform: rotate(-1deg);
+    transform-origin: center;
+    animation-timing-function: ease;
+  }
+
+  95% {
+    transform: rotate(1deg);
+    transform-origin: center;
+    animation-timing-function: ease;
+  }
+
+  100% {
+    transform: rotate(0deg);
+    transform-origin: center;
+    animation-timing-function: ease;
+  }
+}
+
+@keyframes boxdisappear {
+  0% {
+    transform: scale(5);
+    transform-origin: center;
+    animation-timing-function: ease;
+  }
+
+  100% {
+    transform: scale(0);
+    transform-origin: center;
+    animation-timing-function: ease;
+  }
+}
+
+.return {
+  height: 13%;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  shadow: 2px 0 Red;
+  content: url("return2.png");
+  transform: rotate(0deg);
+}
+
+.redcolumn {
+  position: relative;
+  width: 277px;
+  height: 640px;
+  background-color: #B41101;
+  display: sticky;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-weight: 900;
+  color: #ffffff;
+  font-family: Avenir;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 35px;
+  float: left;
+  animation-duration: 10s;
+  animation-iteration-count: 1;
+  animation-name: flash;
+}
+
+.orangecolumn {
+  position: relative;
+  width: 277px;
+  height: 640px;
+  background-color: orange;
+  display: sticky;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-weight: 900;
+  color: #ffffff;
+  font-family: Avenir;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 35px;
+  float: left;
+  animation-duration: 10s;
+  animation-iteration-count: 1;
+  animation-name: flash;
+}
+
+.yellowcolumn {
+  position: relative;
+  width: 277px;
+  height: 640px;
+  background-color: gold;
+  display: sticky;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-weight: 900;
+  color: #ffffff;
+  font-family: Avenir;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 35px;
+  float: left;
+  animation-duration: 10s;
+  animation-iteration-count: 1;
+  animation-name: flash;
+}
+
+.greencolumn {
+  position: relative;
+  width: 277px;
+  height: 640px;
+  background-color: green;
+  display: sticky;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-weight: 900;
+  color: #ffffff;
+  font-family: Avenir;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 35px;
+  float: left;
+  animation-duration: 10s;
+  animation-iteration-count: 1;
+  animation-name: flash;
+}
+
+.bluecolumn {
+  position: relative;
+  width: 277px;
+  height: 640px;
+  background-color: mediumblue;
+  display: sticky;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-weight: 900;
+  color: #ffffff;
+  font-family: Avenir;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 35px;
+  float: left;
+  animation-duration: 10s;
+  animation-iteration-count: 1;
+  animation-name: flash;
+}
+
+.purplecolumn {
+  position: relative;
+  width: 277px;
+  height: 640px;
+  background-color: purple;
+  display: sticky;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-weight: 900;
+  color: #ffffff;
+  font-family: Avenir;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 35px;
+  float: left;
+  animation-duration: 10s;
+  animation-iteration-count: 1;
+  animation-name: flash;
+}
+
+.purplecolumntext {
+  position: fixed;
+  width: 277px;
+  height: 140px;
+  left: 1385px;
+  top: 169px;
+  display: sticky;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-weight: 900;
+  color: #ffffff;
+  font-family: Avenir;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 35px;
+  float: left;
+  animation-duration: 10s;
+  animation-iteration-count: 1;
+  animation-name: noflash;
+  z-index: 2;
+}
+
+.purplecolumn2 {
+  position: fixed;
+  width: 1662px;
+  height: 639px;
+  top: 170px;
+  background-color: purple;
+  display: sticky;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-weight: 900;
+  color: #ffffff;
+  font-family: Avenir;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 35px;
+  float: left;
+  animation-duration: 4s;
+  animation-iteration-count: 1;
+  animation-name: stretch3;
+  z-index: -100;
+}
+
+.blackcolumn {
+  position: fixed;
+  width: 18px;
+  height: 642px;
+  right: 0px;
+  top: 174px;
+  background-color: black;
+  display: sticky;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-weight: 900;
+  color: #ffffff;
+  font-family: Avenir;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 35px;
+  float: left;
+  animation-duration: 10s;
+  animation-iteration-count: 1;
+  animation-name: noflash;
+  z-index: 50;
+}
+
+.purplegif {
+  position: fixed;
+  width: 1385px;
+  height: 639px;
+  left: 127px;
+  top: 170px;
+  display: sticky;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  content: url("MotionPurple.gif");
+  font-weight: 900;
+  color: #ffffff;
+  font-family: Avenir;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 35px;
+  float: left;
+  animation-duration: 10s;
+  animation-iteration-count: 1;
+  animation-name: disappear;
+  z-index: -10;
+}
+
+@keyframes flash {
+  0%, 100% {
+    opacity: 1;
+  }
+
+  15%, 90% {
+    opacity: 0;
+  }
+}
+
+@keyframes stretch3 {
+  0% {
+    transform: scaleX(.16666666);
+    transform-origin: right;
+  }
+
+  20% {
+    transform: scaleX(.16666666);
+    transform-origin: right;
+  }
+
+  80% {
+    transform: scaleX(1);
+    transform-origin: right;
+  }
+
+  100% {
+    transform: scaleX(1);
+    transform-origin: right;
+  }
+}
+
+@keyframes disappear {
+  0% {
+    opacity: 0;
+  }
+
+  20% {
+    opacity: 0;
+  }
+
+  50% {
+    opacity: 1;
+  }
+
+  90% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+  }
+}
